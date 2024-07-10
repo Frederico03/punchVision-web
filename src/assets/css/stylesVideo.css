@@ -1,0 +1,38 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.video-wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.video-player {
+    width: 600px;
+    border-color: black;
+    border: 1px dashed;
+}
+
+button {
+    margin: 2px;
+    line-height: 1px;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+@media all and (max-width: 767px) {
+    .video-player {
+        width: 100%;
+        height: auto;
+    }
+}
